@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 12/17/2016 23:15",
+	"super" : "TestCase",
+	"category" : "Quant-Tests-Core-Currencies-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QNTCurrencyTest",
+	"type" : "normal"
+}

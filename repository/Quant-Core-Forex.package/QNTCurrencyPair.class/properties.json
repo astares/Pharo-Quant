@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 5/8/2017 08:37",
+	"super" : "Object",
+	"category" : "Quant-Core-Forex-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QNTCurrencyPair",
+	"type" : "normal"
+}
