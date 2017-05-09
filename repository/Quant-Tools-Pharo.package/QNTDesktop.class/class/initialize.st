@@ -3,4 +3,5 @@ initialize
 	
 	self 
 		initDesktop;
-		initDesktopPicture
+		initDesktopPicture;
+		initWelcome
