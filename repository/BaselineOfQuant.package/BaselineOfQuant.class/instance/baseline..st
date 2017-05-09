@@ -14,6 +14,6 @@ baseline: spec
 				spec requires: #(#'Quant-Core-Forex' ). ].
 		spec 
 			group: 'Core' with: #(#'Quant-Core-Currencies' #'Quant-Core-Forex' );
-			group: 'Tests' with: #(#'Quant-Core-Forex' #'Quant-Tests-Core-Forex' );
+			group: 'Tests' with: #(#'Quant-Tests-Core-Currencies' #'Quant-Tests-Core-Forex' );
 			group: 'all' with: #('Core' 'Tests' );
 			group: 'default' with: #('all' ). ].
