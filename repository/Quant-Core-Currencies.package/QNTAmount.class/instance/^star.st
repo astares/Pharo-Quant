@@ -1,6 +1,3 @@
 arithmetic
 * aNumber
-
-	^QNTAmount 
-		value: value * aNumber
-		currencyCode: currencyCode
+	^ QNTAmount value: value * aNumber value currencyCode: currencyCode
