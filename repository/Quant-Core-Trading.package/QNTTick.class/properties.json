@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "TorstenBergmann 5/9/2017 10:18",
+	"super" : "Object",
+	"category" : "Quant-Core-Trading-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timePeriod",
+		"beginTime",
+		"endTime",
+		"openPrice",
+		"highPrice",
+		"lowPrice",
+		"closePrice",
+		"volume"
+	],
+	"name" : "QNTTick",
+	"type" : "normal"
+}

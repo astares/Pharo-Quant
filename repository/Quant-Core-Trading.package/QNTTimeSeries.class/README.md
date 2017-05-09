@@ -1,0 +1,1 @@
+A time series is a named sequence of ticks separated by a predefined period  (e.g. 15 minutes, 1 day, etc.)
