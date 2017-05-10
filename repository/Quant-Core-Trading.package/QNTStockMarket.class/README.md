@@ -1,0 +1,1 @@
+A stock market (examples are NASDAQ, NYSE or AMEX)
