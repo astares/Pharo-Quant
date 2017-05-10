@@ -8,4 +8,8 @@ welcome
 
 For more information, please visit here: 
 
-', (self url: 'https://github.com/astares/Pharo-Quant')
+', (self url: 'https://github.com/astares/Pharo-Quant'),
+(self subheading: 'Some market data'),
+'Some initial browsable market data from
+
+NASDQ: ', (self doItFrom: 'QNTStockMarketBrowser open. ')
