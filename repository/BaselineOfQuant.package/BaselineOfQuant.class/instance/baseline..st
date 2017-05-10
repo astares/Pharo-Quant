@@ -20,7 +20,7 @@ baseline: spec
 					with: [ spec requires: #(#'Quant-Core-Forex') ];				
 
 				"DataImport"
-				package: #'Quant-DataImport-Trading-NASDAQ-Import'
+				package: #'Quant-DataImport-Trading'
 					with: [ spec requires: #(#'Quant-Core-Trading' 'NeoCSV') ];
 
 				"Tests"					
@@ -32,10 +32,10 @@ baseline: spec
 					with: [ spec requires: #(#'Quant-Core-Trading') ];
 				package: #'Quant-Help-Tools';	
 				package: #'Quant-Tools-Pharo'
-					with: [ spec requires: #(#'Quant-Core-Trading' 'Quant-DataImport-Trading-NASDAQ-Import' 'Quant-Help-Tools') ].
+					with: [ spec requires: #(#'Quant-Core-Trading' 'Quant-DataImport-Trading' 'Quant-Help-Tools') ].
 			spec
 				group: 'Core' with: #(#'Quant-Core-Currencies' #'Quant-Core-Forex' 'Quant-Core-Trading');
-				group: 'DataImport' with: #(#'Quant-DataImport-Trading-NASDAQ-Import');
+				group: 'DataImport' with: #(#'Quant-DataImport-Trading');
 				group: 'Tests' with: #(#'Quant-Tests-Core-Currencies' #'Quant-Tests-Core-Forex' 'Quant-Tests-Core-Trading');
 				group: 'Help' with: #(#'Quant-Help-Tools');
 				group: 'Tools' with: #(#'Quant-Tools-Pharo');
