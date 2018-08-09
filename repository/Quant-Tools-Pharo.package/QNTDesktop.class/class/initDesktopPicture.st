@@ -1,4 +1,4 @@
 private - initialization
 initDesktopPicture
 
-	World backgroundImage: QNTDesktop desktopForm  layout: #scaled
+	World backgroundImage: QNTDesktop desktopForm layout: #scaled

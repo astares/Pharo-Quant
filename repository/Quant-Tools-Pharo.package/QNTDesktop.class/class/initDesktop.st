@@ -1,7 +1,7 @@
 private - initialization
 initDesktop
 
-	Pharo3Theme beCurrent.	
+	PharoLightTheme beCurrent.	
 	Display fullscreen: true.
 	World color: Color white.
 	 
