@@ -1,3 +1,0 @@
-accessing
-lastSale
-	^ lastSale

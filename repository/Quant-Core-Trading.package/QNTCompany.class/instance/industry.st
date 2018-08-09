@@ -1,3 +1,0 @@
-accessing
-industry
-	^ industry
